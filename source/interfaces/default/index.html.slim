@@ -28,7 +28,7 @@ html
                     button.tiny.button ng-click="readData()" Execute Query
                     span.label.alert#queryFailure style="display:none; margin-left:20px;" {{queryMessage}}
 
-                div ng-repeat="datum in data"
+                div class="row" ng-repeat="datum in data"
                   h4
                     | {{datum.name}}
 
